@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pooja Viewer</title>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #5a2a83;
+      margin-bottom: 10px;
+    }
+    .description {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #counter {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="pooja-name">Loading...</h1>
+  <div class="description" id="short-desc"></div>
+  <div class="description" id="long-desc"></div>
+
+  <button onclick="prevPooja()">Previous</button>
+  <button onclick="nextPooja()">Next</button>
+  <div id="counter"></div>
+
+  <script>
+    let poojas = [];
+    let currentIndex = 0;
+
+    function displayPooja(index) {
+      const pooja = poojas[index];
+      document.getElementById('pooja-name').innerHTML = pooja["Name"] || "Unnamed";
+      document.getElementById('short-desc').innerHTML = pooja["Short Description"] || "";
+      document.getElementById('long-desc').innerHTML = pooja["Long Description"] || "";
+      document.getElementById('counter').textContent = `Showing ${index + 1} of ${poojas.length}`;
+    }
+
+    function prevPooja() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        displayPooja(currentIndex);
+      }
+    }
+
+    function nextPooja() {
+      if (currentIndex < poojas.length - 1) {
+        currentIndex++;
+        displayPooja(currentIndex);
+      }
+    }
+
+    fetch('pooja_list_Selected.xlsx')
+      .then(res => res.arrayBuffer())
+      .then(data => {
+        const workbook = XLSX.read(data, { type: 'array' });
+        const sheetName = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheetName];
+        poojas = XLSX.utils.sheet_to_json(sheet);
+        if (poojas.length > 0) {
+          displayPooja(currentIndex);
+        } else {
+          document.getElementById('pooja-name').textContent = "No data found.";
+        }
+      })
+      .catch(err => {
+        document.getElementById('pooja-name').textContent = "Error loading file.";
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pooja Viewer</title>
-  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
-  <style>
+<meta charset="utf-8"/>
+<title>Pooja Viewer</title>
+<script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+<style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
@@ -33,15 +34,69 @@
   </style>
 </head>
 <body>
-  <h1 id="pooja-name">Loading...</h1>
-  <div class="description" id="short-desc"></div>
-  <div class="description" id="long-desc"></div>
-
-  <button onclick="prevPooja()">Previous</button>
-  <button onclick="nextPooja()">Next</button>
-  <div id="counter"></div>
-
-  <script>
+<h1 id="pooja-name">Loading...</h1>
+<div class="description" id="short-desc"></div>
+<div class="description" id="long-desc"></div>
+<label for="poojaDropdown">Jump to Pooja: </label>
+<select id="poojaDropdown" onchange="jumpToPooja()">
+<option value="0">Ganesh Laxmi Puja</option>
+<option value="1">Navagraha Pooja</option>
+<option value="2">Grah Pravesh Puja</option>
+<option value="3">Satyanarayana Pooja</option>
+<option value="4">Rudrabhishek</option>
+<option value="5">New Office Puja</option>
+<option value="6">New Vehicle Pooja / Vahan Pooja</option>
+<option value="7">Janam Din Puja /Birthday Puja</option>
+<option value="8">Bhumi Puja</option>
+<option value="9">santaan Gopal Puja</option>
+<option value="10">Laghu Rudra</option>
+<option value="11">Maha Rudra</option>
+<option value="12">Ekadasha Rudra</option>
+<option value="13">Ring Ceremony/Roka</option>
+<option value="14">Tulsi Vivah</option>
+<option value="15">Lakshmi Kuber Havan</option>
+<option value="16">Ganapati Homam</option>
+<option value="17">Ek Chandi Homam/Pooja /chandi Havan Pooja</option>
+<option value="18">Nav Chandi Homam/Pooja</option>
+<option value="19">Shat Chandi Homam/Pooja</option>
+<option value="20">Graha Shanti Pooja / Shanti Havan Pooja</option>
+<option value="21">Mool /Gand mool Shanti Havan</option>
+<option value="22">Mangal Dos Nivaran</option>
+<option value="23">Shukra Shanti Pooja</option>
+<option value="24">Surya Shanti Puja</option>
+<option value="25">Chandrama Shanti Puja</option>
+<option value="26">Mangal Shanti Puja</option>
+<option value="27">Shani Shanti Puja</option>
+<option value="28">Rahu Shanti Puja</option>
+<option value="29">Ketu Shanti Puja</option>
+<option value="30">Vastu Shanti Puja</option>
+<option value="31">Kaal Sarp Dosh Puja</option>
+<option value="32">Manglik Dosh Shanti Puja</option>
+<option value="33">Kartik Shanti Puja</option>
+<option value="34">Grah Kalesh Shanti Puja</option>
+<option value="35">Ark Vivah /mandar vivah</option>
+<option value="36">Naamkaran Pooja / Havan</option>
+<option value="37">Vidyarambh Havan</option>
+<option value="38">Annaprashan Havan</option>
+<option value="39">Vivah Sanskar</option>
+<option value="40">Aksharabhyasam</option>
+<option value="41">Yagyopavit Sanskar/Janeyu Puja</option>
+<option value="42">Narayan Bali Pooja</option>
+<option value="43">Pitru Dosh Nivaran Havan</option>
+<option value="44">Shraddha Puja</option>
+<option value="45">varshik shraddha Puja / Annual Shraddha Puja</option>
+<option value="46">Terhavi Puja</option>
+<option value="47">Pind Daan Puja</option>
+<option value="48">Panchank Shanti Puja</option>
+<option value="49">Maha Mrityunjaya Jaap (1.25 Lakh)</option>
+<option value="50">Garud Puran Paath</option>
+<option value="51">Gayatri Jap (1.25 Lakh)</option>
+<option value="52">Vishwakarma Puja</option>
+</select>
+<button onclick="prevPooja()">Previous</button>
+<button onclick="nextPooja()">Next</button>
+<div id="counter"></div>
+<script>
     let poojas = [];
     let currentIndex = 0;
 
@@ -85,23 +140,14 @@
         console.error(err);
       });
   </script>
-
-<br><br>
-<label for="pageInput">Jump to page:</label>
-<input type="number" id="pageInput" min="1" placeholder="Enter page number">
-<button onclick="jumpToPage()">Go</button>
-
 <script>
-function jumpToPage() {
-    var page = document.getElementById("pageInput").value;
-    if (page && page > 0 && page <= poojas.length) {
-        currentIndex = page - 1;
+function jumpToPooja() {
+    const dropdown = document.getElementById('poojaDropdown');
+    const selectedIndex = parseInt(dropdown.value);
+    if (!isNaN(selectedIndex)) {
+        currentIndex = selectedIndex;
         displayPooja(currentIndex);
-    } else {
-        alert("Please enter a valid page number between 1 and " + poojas.length);
     }
 }
-</script>
-
-</body>
+</script></body>
 </html>

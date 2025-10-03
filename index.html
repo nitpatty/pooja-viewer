@@ -85,5 +85,23 @@
         console.error(err);
       });
   </script>
+
+<br><br>
+<label for="pageInput">Jump to page:</label>
+<input type="number" id="pageInput" min="1" placeholder="Enter page number">
+<button onclick="jumpToPage()">Go</button>
+
+<script>
+function jumpToPage() {
+    var page = document.getElementById("pageInput").value;
+    if (page && page > 0 && page <= poojas.length) {
+        currentIndex = page - 1;
+        displayPooja(currentIndex);
+    } else {
+        alert("Please enter a valid page number between 1 and " + poojas.length);
+    }
+}
+</script>
+
 </body>
 </html>

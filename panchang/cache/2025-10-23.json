@@ -1,0 +1,102 @@
+{
+    "vaara": "Thursday",
+    "tithi": "Dwitiya (Shukla Paksha)",
+    "nakshatra": "Vishaka",
+    "yoga": "Ayushman",
+    "sunrise": "02:59",
+    "sunset": "14:08",
+    "karana": "Balava, Kaulava, Taitila",
+    "yoga_full": "Ayushman, Saubhagya",
+    "rahuKalam": "07:09 - 08:33",
+    "abhijit": "08:11 - 08:55",
+    "shubh": true,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Thursday",
+            "nakshatra": [
+                {
+                    "id": 15,
+                    "name": "Vishaka",
+                    "lord": {
+                        "id": 5,
+                        "name": "Jupiter",
+                        "vedic_name": "Guru"
+                    },
+                    "start": "2025-10-23T01:51:44+05:30",
+                    "end": "2025-10-24T04:51:07+05:30"
+                },
+                {
+                    "id": 16,
+                    "name": "Anuradha",
+                    "lord": {
+                        "id": 6,
+                        "name": "Saturn",
+                        "vedic_name": "Shani"
+                    },
+                    "start": "2025-10-24T04:51:08+05:30",
+                    "end": "2025-10-25T07:51:43+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 17,
+                    "index": 0,
+                    "name": "Dwitiya",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-10-22T20:17:14+05:30",
+                    "end": "2025-10-23T22:47:15+05:30"
+                },
+                {
+                    "id": 18,
+                    "index": 0,
+                    "name": "Tritiya",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-10-23T22:47:16+05:30",
+                    "end": "2025-10-25T01:20:00+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 1,
+                    "name": "Balava",
+                    "start": "2025-10-22T20:17:14+05:30",
+                    "end": "2025-10-23T09:31:32+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 2,
+                    "name": "Kaulava",
+                    "start": "2025-10-23T09:31:33+05:30",
+                    "end": "2025-10-23T22:47:15+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 3,
+                    "name": "Taitila",
+                    "start": "2025-10-23T22:47:16+05:30",
+                    "end": "2025-10-24T12:03:40+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 2,
+                    "name": "Ayushman",
+                    "start": "2025-10-23T04:05:27+05:30",
+                    "end": "2025-10-24T04:59:32+05:30"
+                },
+                {
+                    "id": 3,
+                    "name": "Saubhagya",
+                    "start": "2025-10-24T04:59:33+05:30",
+                    "end": "2025-10-25T05:54:29+05:30"
+                }
+            ],
+            "sunrise": "2025-10-23T06:29:56+05:30",
+            "sunset": "2025-10-23T17:38:42+05:30",
+            "moonrise": "2025-10-23T07:56:01+05:30",
+            "moonset": "2025-10-23T18:32:53+05:30"
+        }
+    }
+}

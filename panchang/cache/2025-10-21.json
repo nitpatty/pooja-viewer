@@ -1,0 +1,95 @@
+{
+    "vaara": "Tuesday",
+    "tithi": "Amavasya (Krishna Paksha)",
+    "nakshatra": "Chitra",
+    "yoga": "Vishkambha",
+    "sunrise": "02:58",
+    "sunset": "14:10",
+    "karana": "Naga, Kimstughna",
+    "yoga_full": "Vishkambha, Prithi",
+    "rahuKalam": "09:58 - 11:22",
+    "abhijit": "08:11 - 08:56",
+    "shubh": false,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Tuesday",
+            "nakshatra": [
+                {
+                    "id": 13,
+                    "name": "Chitra",
+                    "lord": {
+                        "id": 4,
+                        "name": "Mars",
+                        "vedic_name": "Kuja"
+                    },
+                    "start": "2025-10-20T20:16:52+05:30",
+                    "end": "2025-10-21T22:58:51+05:30"
+                },
+                {
+                    "id": 14,
+                    "name": "Swati",
+                    "lord": {
+                        "id": 101,
+                        "name": "Rahu",
+                        "vedic_name": "Rahu"
+                    },
+                    "start": "2025-10-21T22:58:52+05:30",
+                    "end": "2025-10-23T01:51:43+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 46,
+                    "index": 0,
+                    "name": "Amavasya",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-20T15:45:28+05:30",
+                    "end": "2025-10-21T17:55:10+05:30"
+                },
+                {
+                    "id": 16,
+                    "index": 0,
+                    "name": "Pratipada",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-10-21T17:55:11+05:30",
+                    "end": "2025-10-22T20:17:13+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 9,
+                    "name": "Naga",
+                    "start": "2025-10-21T04:48:32+05:30",
+                    "end": "2025-10-21T17:55:10+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 10,
+                    "name": "Kimstughna",
+                    "start": "2025-10-21T17:55:11+05:30",
+                    "end": "2025-10-22T07:04:55+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 0,
+                    "name": "Vishkambha",
+                    "start": "2025-10-21T02:34:47+05:30",
+                    "end": "2025-10-22T03:16:07+05:30"
+                },
+                {
+                    "id": 1,
+                    "name": "Prithi",
+                    "start": "2025-10-22T03:16:08+05:30",
+                    "end": "2025-10-23T04:05:26+05:30"
+                }
+            ],
+            "sunrise": "2025-10-21T06:28:38+05:30",
+            "sunset": "2025-10-21T17:40:36+05:30",
+            "moonrise": "2025-10-21T06:05:38+05:30",
+            "moonset": "2025-10-21T17:27:41+05:30"
+        }
+    }
+}

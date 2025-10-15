@@ -1,0 +1,89 @@
+{
+    "vaara": "Monday",
+    "tithi": "Trayodashi (Krishna Paksha)",
+    "nakshatra": "Chitra",
+    "yoga": "Prithi",
+    "sunrise": "02:18",
+    "sunset": "12:51",
+    "karana": "Garija, Vanija",
+    "yoga_full": "Prithi, Ayushman",
+    "rahuKalam": "03:37 - 04:56",
+    "abhijit": "07:13 - 07:55",
+    "shubh": false,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Monday",
+            "nakshatra": [
+                {
+                    "id": 13,
+                    "name": "Chitra",
+                    "lord": {
+                        "id": 4,
+                        "name": "Mars",
+                        "vedic_name": "Kuja"
+                    },
+                    "start": "2025-11-17T02:11:01+05:30",
+                    "end": "2025-11-18T05:01:36+05:30"
+                },
+                {
+                    "id": 14,
+                    "name": "Swati",
+                    "lord": {
+                        "id": 101,
+                        "name": "Rahu",
+                        "vedic_name": "Rahu"
+                    },
+                    "start": "2025-11-18T05:01:37+05:30",
+                    "end": "2025-11-19T07:59:19+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 44,
+                    "index": 0,
+                    "name": "Trayodashi",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-11-17T04:48:08+05:30",
+                    "end": "2025-11-18T07:12:35+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 4,
+                    "name": "Garija",
+                    "start": "2025-11-17T04:48:08+05:30",
+                    "end": "2025-11-17T17:59:04+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 5,
+                    "name": "Vanija",
+                    "start": "2025-11-17T17:59:05+05:30",
+                    "end": "2025-11-18T07:12:35+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 1,
+                    "name": "Prithi",
+                    "start": "2025-11-16T06:46:11+05:30",
+                    "end": "2025-11-17T07:22:38+05:30"
+                },
+                {
+                    "id": 2,
+                    "name": "Ayushman",
+                    "start": "2025-11-17T07:22:39+05:30",
+                    "end": "2025-11-18T08:08:56+05:30"
+                }
+            ],
+            "sunrise": "2025-11-17T06:48:31+05:30",
+            "sunset": "2025-11-17T17:21:30+05:30",
+            "moonrise": "2025-11-17T04:00:55+05:30",
+            "moonset": "2025-11-17T15:30:38+05:30"
+        }
+    }
+}

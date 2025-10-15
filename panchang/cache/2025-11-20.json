@@ -1,0 +1,104 @@
+{
+    "vaara": "Thursday",
+    "tithi": "Amavasya (Krishna Paksha)",
+    "nakshatra": "Vishaka",
+    "yoga": "Sobhana",
+    "sunrise": "02:20",
+    "sunset": "12:50",
+    "karana": "Naga, Kimstughna, Bava",
+    "yoga_full": "Sobhana, Atiganda",
+    "rahuKalam": "06:16 - 07:35",
+    "abhijit": "07:14 - 07:56",
+    "shubh": false,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Thursday",
+            "nakshatra": [
+                {
+                    "id": 15,
+                    "name": "Vishaka",
+                    "lord": {
+                        "id": 5,
+                        "name": "Jupiter",
+                        "vedic_name": "Guru"
+                    },
+                    "start": "2025-11-19T07:59:20+05:30",
+                    "end": "2025-11-20T10:58:47+05:30"
+                },
+                {
+                    "id": 16,
+                    "name": "Anuradha",
+                    "lord": {
+                        "id": 6,
+                        "name": "Saturn",
+                        "vedic_name": "Shani"
+                    },
+                    "start": "2025-11-20T10:58:48+05:30",
+                    "end": "2025-11-21T13:55:53+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 46,
+                    "index": 0,
+                    "name": "Amavasya",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-11-19T09:44:08+05:30",
+                    "end": "2025-11-20T12:17:16+05:30"
+                },
+                {
+                    "id": 16,
+                    "index": 0,
+                    "name": "Pratipada",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-20T12:17:17+05:30",
+                    "end": "2025-11-21T14:47:46+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 9,
+                    "name": "Naga",
+                    "start": "2025-11-19T23:00:48+05:30",
+                    "end": "2025-11-20T12:17:16+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 10,
+                    "name": "Kimstughna",
+                    "start": "2025-11-20T12:17:17+05:30",
+                    "end": "2025-11-21T01:33:05+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 0,
+                    "name": "Bava",
+                    "start": "2025-11-21T01:33:06+05:30",
+                    "end": "2025-11-21T14:47:46+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 4,
+                    "name": "Sobhana",
+                    "start": "2025-11-19T09:00:13+05:30",
+                    "end": "2025-11-20T09:52:37+05:30"
+                },
+                {
+                    "id": 5,
+                    "name": "Atiganda",
+                    "start": "2025-11-20T09:52:38+05:30",
+                    "end": "2025-11-21T10:43:15+05:30"
+                }
+            ],
+            "sunrise": "2025-11-20T06:50:56+05:30",
+            "sunset": "2025-11-20T17:20:25+05:30",
+            "moonrise": "2025-11-20T06:46:18+05:30",
+            "moonset": "2025-11-20T17:11:18+05:30"
+        }
+    }
+}

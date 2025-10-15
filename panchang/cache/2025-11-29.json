@@ -1,0 +1,104 @@
+{
+    "vaara": "Saturday",
+    "tithi": "Navami (Shukla Paksha)",
+    "nakshatra": "Purva Bhadrapada",
+    "yoga": "Harshana",
+    "sunrise": "02:28",
+    "sunset": "12:48",
+    "karana": "Balava, Kaulava, Taitila",
+    "yoga_full": "Harshana, Vajra",
+    "rahuKalam": "02:28 - 03:45",
+    "abhijit": "07:17 - 07:58",
+    "shubh": false,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Saturday",
+            "nakshatra": [
+                {
+                    "id": 24,
+                    "name": "Purva Bhadrapada",
+                    "lord": {
+                        "id": 5,
+                        "name": "Jupiter",
+                        "vedic_name": "Guru"
+                    },
+                    "start": "2025-11-29T02:49:42+05:30",
+                    "end": "2025-11-30T02:22:33+05:30"
+                },
+                {
+                    "id": 25,
+                    "name": "Uttara Bhadrapada",
+                    "lord": {
+                        "id": 6,
+                        "name": "Saturn",
+                        "vedic_name": "Shani"
+                    },
+                    "start": "2025-11-30T02:22:34+05:30",
+                    "end": "2025-12-01T01:10:56+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 24,
+                    "index": 0,
+                    "name": "Navami",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-29T00:15:55+05:30",
+                    "end": "2025-11-29T23:15:36+05:30"
+                },
+                {
+                    "id": 25,
+                    "index": 0,
+                    "name": "Dashami",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-29T23:15:37+05:30",
+                    "end": "2025-11-30T21:29:43+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 1,
+                    "name": "Balava",
+                    "start": "2025-11-29T00:15:55+05:30",
+                    "end": "2025-11-29T11:51:32+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 2,
+                    "name": "Kaulava",
+                    "start": "2025-11-29T11:51:33+05:30",
+                    "end": "2025-11-29T23:15:36+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 3,
+                    "name": "Taitila",
+                    "start": "2025-11-29T23:15:37+05:30",
+                    "end": "2025-11-30T10:28:13+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 13,
+                    "name": "Harshana",
+                    "start": "2025-11-28T11:05:13+05:30",
+                    "end": "2025-11-29T09:26:50+05:30"
+                },
+                {
+                    "id": 14,
+                    "name": "Vajra",
+                    "start": "2025-11-29T09:26:51+05:30",
+                    "end": "2025-11-30T07:12:12+05:30"
+                }
+            ],
+            "sunrise": "2025-11-29T06:58:09+05:30",
+            "sunset": "2025-11-29T17:18:39+05:30",
+            "moonrise": "2025-11-29T13:17:08+05:30",
+            "moonset": "2025-11-30T01:31:01+05:30"
+        }
+    }
+}

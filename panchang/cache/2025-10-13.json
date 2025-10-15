@@ -1,0 +1,108 @@
+{
+    "vaara": "Monday",
+    "tithi": "Saptami (Krishna Paksha)",
+    "nakshatra": "Ardra",
+    "yoga": "Parigha",
+    "sunrise": "02:53",
+    "sunset": "14:18",
+    "karana": "Bava, Balava, Kaulava",
+    "yoga_full": "Parigha, Siva, Siddha",
+    "rahuKalam": "04:18 - 05:44",
+    "abhijit": "08:12 - 08:58",
+    "shubh": true,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Monday",
+            "nakshatra": [
+                {
+                    "id": 5,
+                    "name": "Ardra",
+                    "lord": {
+                        "id": 101,
+                        "name": "Rahu",
+                        "vedic_name": "Rahu"
+                    },
+                    "start": "2025-10-12T13:36:43+05:30",
+                    "end": "2025-10-13T12:26:59+05:30"
+                },
+                {
+                    "id": 6,
+                    "name": "Punarvasu",
+                    "lord": {
+                        "id": 5,
+                        "name": "Jupiter",
+                        "vedic_name": "Guru"
+                    },
+                    "start": "2025-10-13T12:27:00+05:30",
+                    "end": "2025-10-14T11:54:27+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 38,
+                    "index": 0,
+                    "name": "Saptami",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-12T14:17:27+05:30",
+                    "end": "2025-10-13T12:24:56+05:30"
+                },
+                {
+                    "id": 39,
+                    "index": 0,
+                    "name": "Ashtami",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-13T12:24:57+05:30",
+                    "end": "2025-10-14T11:10:08+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 0,
+                    "name": "Bava",
+                    "start": "2025-10-13T01:16:39+05:30",
+                    "end": "2025-10-13T12:24:56+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 1,
+                    "name": "Balava",
+                    "start": "2025-10-13T12:24:57+05:30",
+                    "end": "2025-10-13T23:42:41+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 2,
+                    "name": "Kaulava",
+                    "start": "2025-10-13T23:42:42+05:30",
+                    "end": "2025-10-14T11:10:08+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 18,
+                    "name": "Parigha",
+                    "start": "2025-10-12T10:55:05+05:30",
+                    "end": "2025-10-13T08:10:13+05:30"
+                },
+                {
+                    "id": 19,
+                    "name": "Siva",
+                    "start": "2025-10-13T08:10:14+05:30",
+                    "end": "2025-10-14T05:55:12+05:30"
+                },
+                {
+                    "id": 20,
+                    "name": "Siddha",
+                    "start": "2025-10-14T05:55:13+05:30",
+                    "end": "2025-10-15T04:11:01+05:30"
+                }
+            ],
+            "sunrise": "2025-10-13T06:23:39+05:30",
+            "sunset": "2025-10-13T17:48:47+05:30",
+            "moonrise": "2025-10-13T23:19:22+05:30",
+            "moonset": "2025-10-13T13:02:10+05:30"
+        }
+    }
+}

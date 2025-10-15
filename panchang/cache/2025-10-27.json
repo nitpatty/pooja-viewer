@@ -1,0 +1,87 @@
+{
+    "vaara": "Monday",
+    "tithi": "Shashthi (Shukla Paksha)",
+    "nakshatra": "Moola",
+    "yoga": "Atiganda",
+    "sunrise": "02:02",
+    "sunset": "13:05",
+    "karana": "Kaulava, Taitila",
+    "yoga_full": "Atiganda, Sukarman",
+    "rahuKalam": "03:24 - 04:47",
+    "abhijit": "07:11 - 07:55",
+    "shubh": false,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Monday",
+            "nakshatra": [
+                {
+                    "id": 18,
+                    "name": "Moola",
+                    "lord": {
+                        "id": 102,
+                        "name": "Ketu",
+                        "vedic_name": "Ketu"
+                    },
+                    "start": "2025-10-26T10:46:42+05:30",
+                    "end": "2025-10-27T13:27:39+05:30"
+                },
+                {
+                    "id": 19,
+                    "name": "Purva Ashadha",
+                    "lord": {
+                        "id": 3,
+                        "name": "Venus",
+                        "vedic_name": "Shukra"
+                    },
+                    "start": "2025-10-27T13:27:40+05:30",
+                    "end": "2025-10-28T15:45:12+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 21,
+                    "index": 0,
+                    "name": "Shashthi",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-10-27T06:05:25+05:30",
+                    "end": "2025-10-28T08:00:16+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 2,
+                    "name": "Kaulava",
+                    "start": "2025-10-27T06:05:25+05:30",
+                    "end": "2025-10-27T19:06:10+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 3,
+                    "name": "Taitila",
+                    "start": "2025-10-27T19:06:11+05:30",
+                    "end": "2025-10-28T08:00:16+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 5,
+                    "name": "Atiganda",
+                    "start": "2025-10-26T06:45:25+05:30",
+                    "end": "2025-10-27T07:26:20+05:30"
+                },
+                {
+                    "id": 6,
+                    "name": "Sukarman",
+                    "start": "2025-10-27T07:26:21+05:30",
+                    "end": "2025-10-28T07:50:28+05:30"
+                }
+            ],
+            "sunrise": "2025-10-27T06:32:40+05:30",
+            "sunset": "2025-10-27T17:35:06+05:30",
+            "moonrise": "2025-10-27T11:34:48+05:30",
+            "moonset": "2025-10-27T21:41:10+05:30"
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "vaara": "Monday",
+    "tithi": "Chaturthi (Shukla Paksha)",
+    "nakshatra": "Purva Ashadha",
+    "yoga": "Soola",
+    "sunrise": "02:24",
+    "sunset": "12:49",
+    "karana": "Vanija, Vishti \/ Bhadra, Bava",
+    "yoga_full": "Soola, Ganda",
+    "rahuKalam": "03:42 - 05:00",
+    "abhijit": "07:15 - 07:57",
+    "shubh": false,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Monday",
+            "nakshatra": [
+                {
+                    "id": 19,
+                    "name": "Purva Ashadha",
+                    "lord": {
+                        "id": 3,
+                        "name": "Venus",
+                        "vedic_name": "Shukra"
+                    },
+                    "start": "2025-11-23T19:27:57+05:30",
+                    "end": "2025-11-24T21:53:39+05:30"
+                },
+                {
+                    "id": 20,
+                    "name": "Uttara Ashadha",
+                    "lord": {
+                        "id": 0,
+                        "name": "Sun",
+                        "vedic_name": "Ravi"
+                    },
+                    "start": "2025-11-24T21:53:40+05:30",
+                    "end": "2025-11-25T23:57:43+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 19,
+                    "index": 0,
+                    "name": "Chaturthi",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-23T19:25:16+05:30",
+                    "end": "2025-11-24T21:22:40+05:30"
+                },
+                {
+                    "id": 20,
+                    "index": 0,
+                    "name": "Panchami",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-24T21:22:41+05:30",
+                    "end": "2025-11-25T22:57:32+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 5,
+                    "name": "Vanija",
+                    "start": "2025-11-23T19:25:16+05:30",
+                    "end": "2025-11-24T08:26:21+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 6,
+                    "name": "Vishti \/ Bhadra",
+                    "start": "2025-11-24T08:26:22+05:30",
+                    "end": "2025-11-24T21:22:40+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 0,
+                    "name": "Bava",
+                    "start": "2025-11-24T21:22:41+05:30",
+                    "end": "2025-11-25T10:13:22+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 8,
+                    "name": "Soola",
+                    "start": "2025-11-23T12:08:26+05:30",
+                    "end": "2025-11-24T12:36:35+05:30"
+                },
+                {
+                    "id": 9,
+                    "name": "Ganda",
+                    "start": "2025-11-24T12:36:36+05:30",
+                    "end": "2025-11-25T12:49:34+05:30"
+                }
+            ],
+            "sunrise": "2025-11-24T06:54:11+05:30",
+            "sunset": "2025-11-24T17:19:21+05:30",
+            "moonrise": "2025-11-24T10:18:36+05:30",
+            "moonset": "2025-11-24T20:32:59+05:30"
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "vaara": "Saturday",
+    "tithi": "Dwitiya (Shukla Paksha)",
+    "nakshatra": "Jyeshta",
+    "yoga": "Sukarman",
+    "sunrise": "02:22",
+    "sunset": "12:49",
+    "karana": "Kaulava, Taitila, Garija",
+    "yoga_full": "Sukarman, Dhrithi",
+    "rahuKalam": "02:22 - 03:40",
+    "abhijit": "07:14 - 07:56",
+    "shubh": true,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Saturday",
+            "nakshatra": [
+                {
+                    "id": 17,
+                    "name": "Jyeshta",
+                    "lord": {
+                        "id": 2,
+                        "name": "Mercury",
+                        "vedic_name": "Budha"
+                    },
+                    "start": "2025-11-21T13:55:54+05:30",
+                    "end": "2025-11-22T16:46:57+05:30"
+                },
+                {
+                    "id": 18,
+                    "name": "Moola",
+                    "lord": {
+                        "id": 102,
+                        "name": "Ketu",
+                        "vedic_name": "Ketu"
+                    },
+                    "start": "2025-11-22T16:46:58+05:30",
+                    "end": "2025-11-23T19:27:56+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 17,
+                    "index": 0,
+                    "name": "Dwitiya",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-21T14:47:47+05:30",
+                    "end": "2025-11-22T17:11:51+05:30"
+                },
+                {
+                    "id": 18,
+                    "index": 0,
+                    "name": "Tritiya",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-22T17:11:52+05:30",
+                    "end": "2025-11-23T19:25:15+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 2,
+                    "name": "Kaulava",
+                    "start": "2025-11-22T04:00:53+05:30",
+                    "end": "2025-11-22T17:11:51+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 3,
+                    "name": "Taitila",
+                    "start": "2025-11-22T17:11:52+05:30",
+                    "end": "2025-11-23T06:20:12+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 4,
+                    "name": "Garija",
+                    "start": "2025-11-23T06:20:13+05:30",
+                    "end": "2025-11-23T19:25:15+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 6,
+                    "name": "Sukarman",
+                    "start": "2025-11-21T10:43:16+05:30",
+                    "end": "2025-11-22T11:29:28+05:30"
+                },
+                {
+                    "id": 7,
+                    "name": "Dhrithi",
+                    "start": "2025-11-22T11:29:29+05:30",
+                    "end": "2025-11-23T12:08:25+05:30"
+                }
+            ],
+            "sunrise": "2025-11-22T06:52:34+05:30",
+            "sunset": "2025-11-22T17:19:50+05:30",
+            "moonrise": "2025-11-22T08:38:14+05:30",
+            "moonset": "2025-11-22T18:42:37+05:30"
+        }
+    }
+}

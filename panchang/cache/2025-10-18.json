@@ -1,0 +1,102 @@
+{
+    "vaara": "Saturday",
+    "tithi": "Dwadashi (Krishna Paksha)",
+    "nakshatra": "Purva Phalguni",
+    "yoga": "Brahma",
+    "sunrise": "02:56",
+    "sunset": "14:13",
+    "karana": "Taitila, Garija, Vanija",
+    "yoga_full": "Brahma, Indra",
+    "rahuKalam": "02:56 - 04:20",
+    "abhijit": "08:11 - 08:57",
+    "shubh": false,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Saturday",
+            "nakshatra": [
+                {
+                    "id": 10,
+                    "name": "Purva Phalguni",
+                    "lord": {
+                        "id": 3,
+                        "name": "Venus",
+                        "vedic_name": "Shukra"
+                    },
+                    "start": "2025-10-17T13:57:41+05:30",
+                    "end": "2025-10-18T15:41:49+05:30"
+                },
+                {
+                    "id": 11,
+                    "name": "Uttara Phalguni",
+                    "lord": {
+                        "id": 0,
+                        "name": "Sun",
+                        "vedic_name": "Ravi"
+                    },
+                    "start": "2025-10-18T15:41:50+05:30",
+                    "end": "2025-10-19T17:49:46+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 43,
+                    "index": 0,
+                    "name": "Dwadashi",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-17T11:12:44+05:30",
+                    "end": "2025-10-18T12:19:41+05:30"
+                },
+                {
+                    "id": 44,
+                    "index": 0,
+                    "name": "Trayodashi",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-18T12:19:42+05:30",
+                    "end": "2025-10-19T13:52:10+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 3,
+                    "name": "Taitila",
+                    "start": "2025-10-17T23:42:43+05:30",
+                    "end": "2025-10-18T12:19:41+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 4,
+                    "name": "Garija",
+                    "start": "2025-10-18T12:19:42+05:30",
+                    "end": "2025-10-19T01:03:02+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 5,
+                    "name": "Vanija",
+                    "start": "2025-10-19T01:03:03+05:30",
+                    "end": "2025-10-19T13:52:10+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 24,
+                    "name": "Brahma",
+                    "start": "2025-10-18T01:48:43+05:30",
+                    "end": "2025-10-19T01:47:52+05:30"
+                },
+                {
+                    "id": 25,
+                    "name": "Indra",
+                    "start": "2025-10-19T01:47:53+05:30",
+                    "end": "2025-10-20T02:04:20+05:30"
+                }
+            ],
+            "sunrise": "2025-10-18T06:26:42+05:30",
+            "sunset": "2025-10-18T17:43:34+05:30",
+            "moonrise": "2025-10-18T03:23:22+05:30",
+            "moonset": "2025-10-18T16:05:12+05:30"
+        }
+    }
+}

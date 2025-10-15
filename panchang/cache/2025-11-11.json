@@ -1,0 +1,104 @@
+{
+    "vaara": "Tuesday",
+    "tithi": "Saptami (Krishna Paksha)",
+    "nakshatra": "Pushya",
+    "yoga": "Subha",
+    "sunrise": "02:13",
+    "sunset": "12:54",
+    "karana": "Vishti \/ Bhadra, Bava, Balava",
+    "yoga_full": "Subha, Sukla",
+    "rahuKalam": "08:53 - 10:13",
+    "abhijit": "07:12 - 07:54",
+    "shubh": true,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Tuesday",
+            "nakshatra": [
+                {
+                    "id": 7,
+                    "name": "Pushya",
+                    "lord": {
+                        "id": 6,
+                        "name": "Saturn",
+                        "vedic_name": "Shani"
+                    },
+                    "start": "2025-11-10T18:48:17+05:30",
+                    "end": "2025-11-11T18:18:02+05:30"
+                },
+                {
+                    "id": 8,
+                    "name": "Ashlesha",
+                    "lord": {
+                        "id": 2,
+                        "name": "Mercury",
+                        "vedic_name": "Budha"
+                    },
+                    "start": "2025-11-11T18:18:03+05:30",
+                    "end": "2025-11-12T18:35:29+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 38,
+                    "index": 0,
+                    "name": "Saptami",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-11-11T00:08:40+05:30",
+                    "end": "2025-11-11T23:09:23+05:30"
+                },
+                {
+                    "id": 39,
+                    "index": 0,
+                    "name": "Ashtami",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-11-11T23:09:24+05:30",
+                    "end": "2025-11-12T22:58:55+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 6,
+                    "name": "Vishti \/ Bhadra",
+                    "start": "2025-11-11T00:08:40+05:30",
+                    "end": "2025-11-11T11:32:54+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 0,
+                    "name": "Bava",
+                    "start": "2025-11-11T11:32:55+05:30",
+                    "end": "2025-11-11T23:09:23+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 1,
+                    "name": "Balava",
+                    "start": "2025-11-11T23:09:24+05:30",
+                    "end": "2025-11-12T10:58:08+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 22,
+                    "name": "Subha",
+                    "start": "2025-11-10T12:04:59+05:30",
+                    "end": "2025-11-11T09:44:27+05:30"
+                },
+                {
+                    "id": 23,
+                    "name": "Sukla",
+                    "start": "2025-11-11T09:44:28+05:30",
+                    "end": "2025-11-12T08:02:20+05:30"
+                }
+            ],
+            "sunrise": "2025-11-11T06:43:45+05:30",
+            "sunset": "2025-11-11T17:24:21+05:30",
+            "moonrise": "2025-11-11T23:19:46+05:30",
+            "moonset": "2025-11-11T12:30:14+05:30"
+        }
+    }
+}

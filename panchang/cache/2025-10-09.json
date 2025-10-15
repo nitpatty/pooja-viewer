@@ -1,0 +1,102 @@
+{
+    "vaara": "Thursday",
+    "tithi": "Tritiya (Krishna Paksha)",
+    "nakshatra": "Bharani",
+    "yoga": "Vajra",
+    "sunrise": "02:51",
+    "sunset": "14:23",
+    "karana": "Vanija, Vishti \/ Bhadra, Bava",
+    "yoga_full": "Vajra, Siddhi",
+    "rahuKalam": "07:10 - 08:37",
+    "abhijit": "08:13 - 09:00",
+    "shubh": true,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Thursday",
+            "nakshatra": [
+                {
+                    "id": 1,
+                    "name": "Bharani",
+                    "lord": {
+                        "id": 3,
+                        "name": "Venus",
+                        "vedic_name": "Shukra"
+                    },
+                    "start": "2025-10-08T22:44:57+05:30",
+                    "end": "2025-10-09T20:02:40+05:30"
+                },
+                {
+                    "id": 2,
+                    "name": "Krithika",
+                    "lord": {
+                        "id": 0,
+                        "name": "Sun",
+                        "vedic_name": "Ravi"
+                    },
+                    "start": "2025-10-09T20:02:41+05:30",
+                    "end": "2025-10-10T17:31:20+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 34,
+                    "index": 0,
+                    "name": "Tritiya",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-09T02:23:06+05:30",
+                    "end": "2025-10-09T22:54:57+05:30"
+                },
+                {
+                    "id": 35,
+                    "index": 0,
+                    "name": "Chaturthi",
+                    "paksha": "Krishna Paksha",
+                    "start": "2025-10-09T22:54:58+05:30",
+                    "end": "2025-10-10T19:39:02+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 5,
+                    "name": "Vanija",
+                    "start": "2025-10-09T02:23:06+05:30",
+                    "end": "2025-10-09T12:38:04+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 6,
+                    "name": "Vishti \/ Bhadra",
+                    "start": "2025-10-09T12:38:05+05:30",
+                    "end": "2025-10-09T22:54:57+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 0,
+                    "name": "Bava",
+                    "start": "2025-10-09T22:54:58+05:30",
+                    "end": "2025-10-10T09:14:53+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 14,
+                    "name": "Vajra",
+                    "start": "2025-10-09T01:32:48+05:30",
+                    "end": "2025-10-09T21:32:17+05:30"
+                },
+                {
+                    "id": 15,
+                    "name": "Siddhi",
+                    "start": "2025-10-09T21:32:18+05:30",
+                    "end": "2025-10-10T17:41:20+05:30"
+                }
+            ],
+            "sunrise": "2025-10-09T06:21:21+05:30",
+            "sunset": "2025-10-09T17:53:08+05:30",
+            "moonrise": "2025-10-09T19:21:58+05:30",
+            "moonset": "2025-10-10T09:46:18+05:30"
+        }
+    }
+}

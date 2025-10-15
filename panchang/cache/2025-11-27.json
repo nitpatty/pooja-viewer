@@ -1,0 +1,104 @@
+{
+    "vaara": "Thursday",
+    "tithi": "Saptami (Shukla Paksha)",
+    "nakshatra": "Dhanishta",
+    "yoga": "Dhruva",
+    "sunrise": "02:26",
+    "sunset": "12:48",
+    "karana": "Garija, Vanija, Vishti \/ Bhadra",
+    "yoga_full": "Dhruva, Vyaghata",
+    "rahuKalam": "06:19 - 07:37",
+    "abhijit": "07:16 - 07:57",
+    "shubh": true,
+    "region": "hindi",
+    "festivalIcon": null,
+    "raw": {
+        "status": "ok",
+        "data": {
+            "vaara": "Thursday",
+            "nakshatra": [
+                {
+                    "id": 22,
+                    "name": "Dhanishta",
+                    "lord": {
+                        "id": 4,
+                        "name": "Mars",
+                        "vedic_name": "Kuja"
+                    },
+                    "start": "2025-11-27T01:32:54+05:30",
+                    "end": "2025-11-28T02:32:06+05:30"
+                },
+                {
+                    "id": 23,
+                    "name": "Shatabhisha",
+                    "lord": {
+                        "id": 101,
+                        "name": "Rahu",
+                        "vedic_name": "Rahu"
+                    },
+                    "start": "2025-11-28T02:32:07+05:30",
+                    "end": "2025-11-29T02:49:41+05:30"
+                }
+            ],
+            "tithi": [
+                {
+                    "id": 22,
+                    "index": 0,
+                    "name": "Saptami",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-27T00:02:31+05:30",
+                    "end": "2025-11-28T00:30:31+05:30"
+                },
+                {
+                    "id": 23,
+                    "index": 0,
+                    "name": "Ashtami",
+                    "paksha": "Shukla Paksha",
+                    "start": "2025-11-28T00:30:32+05:30",
+                    "end": "2025-11-29T00:15:54+05:30"
+                }
+            ],
+            "karana": [
+                {
+                    "index": 0,
+                    "id": 4,
+                    "name": "Garija",
+                    "start": "2025-11-27T00:02:31+05:30",
+                    "end": "2025-11-27T12:21:32+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 5,
+                    "name": "Vanija",
+                    "start": "2025-11-27T12:21:33+05:30",
+                    "end": "2025-11-28T00:30:31+05:30"
+                },
+                {
+                    "index": 0,
+                    "id": 6,
+                    "name": "Vishti \/ Bhadra",
+                    "start": "2025-11-28T00:30:32+05:30",
+                    "end": "2025-11-28T12:28:48+05:30"
+                }
+            ],
+            "yoga": [
+                {
+                    "id": 11,
+                    "name": "Dhruva",
+                    "start": "2025-11-26T12:42:13+05:30",
+                    "end": "2025-11-27T12:09:05+05:30"
+                },
+                {
+                    "id": 12,
+                    "name": "Vyaghata",
+                    "start": "2025-11-27T12:09:06+05:30",
+                    "end": "2025-11-28T11:05:12+05:30"
+                }
+            ],
+            "sunrise": "2025-11-27T06:56:34+05:30",
+            "sunset": "2025-11-27T17:18:51+05:30",
+            "moonrise": "2025-11-27T12:14:19+05:30",
+            "moonset": "2025-11-27T23:30:40+05:30"
+        }
+    }
+}

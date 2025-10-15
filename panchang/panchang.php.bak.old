@@ -1,0 +1,128 @@
+<?php
+$clientId = '30248921-484f-452f-8cc5-340e2a1c1bfb';
+$clientSecret = 'WcWjSJ3xnPq23h1HsT72OTU0FZoxIp8IWckxF2eI';
+
+function getAccessToken($clientId, $clientSecret) {
+    $ch = curl_init('https://api.prokerala.com/token');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+        'grant_type' => 'client_credentials',
+        'client_id' => $clientId,
+        'client_secret' => $clientSecret
+    ]));
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return json_decode($response, true)['access_token'] ?? null;
+}
+
+function getPanchangData($token, $datetime, $coordinates, $ayanamsa) {
+    $url = "https://api.prokerala.com/v2/astrology/panchang?" . http_build_query([
+        'datetime' => $datetime,
+        'coordinates' => $coordinates,
+        'ayanamsa' => $ayanamsa
+    ]);
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "Authorization: Bearer $token"
+    ]);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return json_decode($response, true);
+}
+
+function calculateRahuKalam($vaara, $sunrise, $sunset) {
+    $rahukaalMap = [
+        'Sunday' => 7, 'Monday' => 2, 'Tuesday' => 6,
+        'Wednesday' => 5, 'Thursday' => 4, 'Friday' => 3, 'Saturday' => 1
+    ];
+    $start = strtotime("2025-10-01 $sunrise");
+    $end = strtotime("2025-10-01 $sunset");
+    $duration = ($end - $start) / 8;
+    $slot = $rahukaalMap[$vaara] ?? 1;
+    $rkStart = $start + ($slot - 1) * $duration;
+    $rkEnd = $rkStart + $duration;
+    return date('H:i', $rkStart) . ' - ' . date('H:i', $rkEnd);
+}
+
+function calculateAbhijitMuhurat($sunrise, $sunset) {
+    $start = strtotime("2025-10-01 $sunrise");
+    $end = strtotime("2025-10-01 $sunset");
+    $mid = ($start + $end) / 2;
+    $duration = ($end - $start) / 15;
+    $abStart = $mid - ($duration / 2);
+    $abEnd = $mid + ($duration / 2);
+    return date('H:i', $abStart) . ' - ' . date('H:i', $abEnd);
+}
+
+function isShubhDay($tithi, $nakshatra, $yoga) {
+    $shubhTithis = ['Dwitiya', 'Tritiya', 'Panchami', 'Saptami', 'Dashami', 'Ekadashi'];
+    $shubhNakshatras = ['Rohini', 'Pushya', 'Hasta', 'Anuradha', 'Uttara Phalguni'];
+    $shubhYogas = ['Siddhi', 'Sukarman', 'Dhriti', 'Shubha', 'Amrita'];
+    return in_array($tithi, $shubhTithis) || in_array($nakshatra, $shubhNakshatras) || in_array($yoga, $shubhYogas);
+}
+
+$day = $_GET['day'] ?? null;
+if (!$day || $day < 1 || $day > 31) {
+    echo json_encode(['error' => 'Invalid date']);
+    exit;
+}
+
+$date = "2025-10-" . str_pad($day, 2, '0', STR_PAD_LEFT);
+$cacheFile = __DIR__ . "/cache/$date.json";
+
+if (file_exists($cacheFile)) {
+    echo file_get_contents($cacheFile);
+    exit;
+}
+
+$token = getAccessToken($clientId, $clientSecret);
+if (!$token) {
+    echo json_encode(['error' => 'Authentication failed']);
+    exit;
+}
+
+$latitude = 28.6692;
+$longitude = 77.4538;
+$coordinates = "$latitude,$longitude";
+$timezoneOffset = '+05:30';
+$ayanamsa = 1;
+$datetime = "$date" . "T06:00:00$timezoneOffset";
+
+$data = getPanchangData($token, $datetime, $coordinates, $ayanamsa);
+
+$tithi = $data['data']['tithi'][0]['name'] ?? 'N/A';
+$paksha = $data['data']['tithi'][0]['paksha'] ?? '';
+$nakshatra = $data['data']['nakshatra'][0]['name'] ?? 'N/A';
+$yoga = $data['data']['yoga'][0]['name'] ?? 'N/A';
+$vaara = $data['data']['vaara'] ?? 'N/A';
+$sunrise = date('H:i', strtotime($data['data']['sunrise'] ?? ''));
+$sunset = date('H:i', strtotime($data['data']['sunset'] ?? ''));
+
+$karanas = array_map(fn($k) => $k['name'], $data['data']['karana'] ?? []);
+$yogas = array_map(fn($y) => $y['name'], $data['data']['yoga'] ?? []);
+
+$rahuKalam = calculateRahuKalam($vaara, $sunrise, $sunset);
+$abhijit = calculateAbhijitMuhurat($sunrise, $sunset);
+$shubh = isShubhDay($tithi, $nakshatra, $yoga);
+
+$result = [
+    'vaara' => $vaara,
+    'tithi' => "$tithi ($paksha)",
+    'nakshatra' => $nakshatra,
+    'yoga' => $yoga,
+    'sunrise' => $sunrise,
+    'sunset' => $sunset,
+    'karana' => implode(', ', $karanas),
+    'yoga_full' => implode(', ', $yogas),
+    'rahuKalam' => $rahuKalam,
+    'abhijit' => $abhijit,
+    'shubh' => $shubh,
+    'raw' => $data
+];
+
+if (!is_dir(__DIR__ . '/cache')) {
+    mkdir(__DIR__ . '/cache', 0777, true);
+}
+file_put_contents($cacheFile, json_encode($result, JSON_PRETTY_PRINT));
+echo json_encode($result);

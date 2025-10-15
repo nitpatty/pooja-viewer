@@ -1,0 +1,23 @@
+{
+    "vaara": "N\/A",
+    "tithi": "N\/A ()",
+    "nakshatra": "N\/A",
+    "yoga": "N\/A",
+    "sunrise": "01:00",
+    "sunset": "01:00",
+    "karana": "",
+    "yoga_full": "",
+    "rahuKalam": "01:00 - 01:00",
+    "abhijit": "01:00 - 01:00",
+    "shubh": false,
+    "raw": {
+        "id": "49cd36bb-d8f8-494c-b599-f9f082273687",
+        "status": "error",
+        "errors": [
+            {
+                "title": "Client Error",
+                "detail": "You have exceeded the rate limit of 5 requests per 60 seconds on your account"
+            }
+        ]
+    }
+}
